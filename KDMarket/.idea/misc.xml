@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/activity_login.xml" value="0.2217741935483871" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/activity_regist.xml" value="0.2103494623655914" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/activity_register.xml" value="0.2103494623655914" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/activity_welcome.xml" value="0.33" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_helphome.xml" value="0.2647849462365591" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_home.xml" value="0.22379032258064516" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_homeMain.xml" value="0.2594086021505376" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_homemain.xml" value="0.2594086021505376" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_login.xml" value="0.21706989247311828" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_loginhome.xml" value="0.21706989247311828" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_terms.xml" value="0.2647849462365591" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/fragment_todo.xml" value="0.2647849462365591" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/layout/homehelp_terms.xml" value="0.2647849462365591" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/menu/menu_login_activity.xml" value="0.2765625" />
+        <entry key="..\:/proyectosAndroid/Proyecto/KDMarket/app/src/main/res/menu/menu_main_activity.xml" value="0.2765625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

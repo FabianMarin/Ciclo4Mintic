@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tollb1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        android:elevation="1dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/linlay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linlay1">
+
+        <TextView
+            android:id="@+id/txtregname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittxtregname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/txtreglastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LastName"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittxtreglastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/LastName"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/txtregema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emailn"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittxtregema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/txtregpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/Password"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittxtregpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Passpp"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/txtregconfpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/ConfirmPass"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:id="@+id/edittxtregconfpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ConfirmPass"
+            android:textSize="20dp"></EditText>
+
+        <Button
+            android:id="@+id/btnaccepreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLogin"
+            android:text="@string/Accept"></Button>
+        <Button
+            android:id="@+id/btnbackreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLogin"
+            android:text="@string/Back"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tollb1">
+
+        <ImageView
+            android:id="@+id/igm1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/jpg"></ImageView>
+
+        <ImageView
+            android:id="@+id/igm2"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/jpg"></ImageView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

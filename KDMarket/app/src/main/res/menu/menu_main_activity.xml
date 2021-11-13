@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_login"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="@string/Login"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action_terms"
+        android:icon="@android:drawable/stat_notify_error"
+        android:title="@string/Terms"
+        app:showAsAction="always">
+    </item>
+
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/Help"
+        app:showAsAction="always">
+    </item>
+
+
+
+
+</menu>
