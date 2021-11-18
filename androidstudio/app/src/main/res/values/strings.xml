@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">videouno</string>
+    <string name="text_username">Username</string>
+    <string name="password">Password</string>
+    <string name="hint_password">Your Password</string>
+</resources>
