@@ -1,0 +1,2 @@
+com/kotlindevs/kdmarket/BuildConfig.java
+ com.kotlindevs.kdmarket.BuildConfig
