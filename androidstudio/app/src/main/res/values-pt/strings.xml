@@ -3,4 +3,17 @@
     <string name="text_username">nome de usuário</string>
     <string name="password">senha</string>
     <string name="hint_password">Sua Senha</string>
+    <string name="welcome">Hello</string>
+    <string name="user">users</string>
+    <string name="text_primer">INTRODUCCINHO</string>
+    <string name="clase">CLASINHO</string>
+    <string name="action_search">Buscadecinhas</string>
+    <string name="action_settings">Configuracinhas</string>
+    <string name="action_logout">Cerrinho Cesiosinha</string>
+
+    <string name="queeskotlin">Kotlin es un lenguaje de programación
+        de tipado estático que corre sobre la máquina virtual de Java
+        y que también puede ser compilado a código fuente de JavaScript.
+        Es desarrollado principalmente por JetBrains en sus oficinas
+        de San Petersburgo.</string>
 </resources>

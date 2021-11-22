@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">videoone</string>
+    <string name="app_name">video one</string>
     <string name="text_username">Username</string>
     <string name="password">Password</string>
     <string name="hint_password">Your Password</string>
     <string name="welcome">welcome</string>
     <string name="user">user</string>
     <string name="text_primer">INTRODUTION</string>
-    <string name="queeskotlin">Kotlin es un lenguaje de programación de tipado
-        estático que corre sobre la máquina virtual de Java y que también puede
-        ser compilado a código fuente de JavaScript. Es desarrollado principalmente
-        por JetBrains en sus oficinas de San Petersburgo.</string>
     <string name="clase">CLASS</string>
     <string name="action_search">Search</string>
     <string name="action_settings">Settings</string>
     <string name="action_logout">logout</string>
+
+    <string name="queeskotlin">Kotlin es un lenguaje de programación
+        de tipado estático que corre sobre la máquina virtual de Java
+        y que también puede ser compilado a código fuente de JavaScript.
+        Es desarrollado principalmente por JetBrains en sus oficinas de
+        San Petersburgo.</string>
 </resources>
