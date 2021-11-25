@@ -77,4 +77,12 @@ class LoginActivity : AppCompatActivity() {
         val intento = Intent(this, MainActivity::class.java)
         startActivity(intento)
     }
+
+    fun recupclave(view: android.view.View) {
+        var username: String = edtUsername!!.text.toString()
+        FirebaseAuth.getInstance().sendPasswordResetEmail(username)
+        Toast.makeText(applicationContext,("Se oprimio recuperacion de clave"),
+            Toast.LENGTH_SHORT).show()
+
+    }
 }

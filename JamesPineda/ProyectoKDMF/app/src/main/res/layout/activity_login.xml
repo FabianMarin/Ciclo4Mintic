@@ -63,6 +63,12 @@
             android:layout_height="wrap_content"
             android:onClick="registrando"
             android:text="Register"></Button>
+        <Button
+            android:id="@+id/btnreccont"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="recupclave"
+            android:text="recuperar clave"></Button>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
