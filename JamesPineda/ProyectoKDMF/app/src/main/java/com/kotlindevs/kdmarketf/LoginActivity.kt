@@ -32,18 +32,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun registrando(view: android.view.View) {
-        var username: String = edtUsername!!.text.toString()
-        var password: String = edtPassword!!.text.toString()
-            if (username.isNotEmpty() && password.isNotEmpty()) {
-                FirebaseAuth.getInstance().createUserWithEmailAndPassword(username, password)
-                    .addOnCompleteListener {
-                        if (it.isSuccessful) {
-                            Toast.makeText(applicationContext,("Registro satisfactorio"), Toast.LENGTH_SHORT).show()
-                        } else {
-                            showAlert()
-                        }
-                    }
-            }
+        val intento = Intent(this, RegisterActivity::class.java)
+        startActivity(intento)
     }
         fun logueando(view: android.view.View) {
             var username: String = edtUsername!!.text.toString()

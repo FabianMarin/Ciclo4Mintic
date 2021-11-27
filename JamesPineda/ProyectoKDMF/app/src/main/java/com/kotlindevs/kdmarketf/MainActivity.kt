@@ -15,4 +15,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(intento)
     }
 
+    fun onRegister(view: android.view.View) {
+        val intenreg= Intent(this, RegisterActivity::class.java)
+        startActivity(intenreg)
+    }
+
 }
