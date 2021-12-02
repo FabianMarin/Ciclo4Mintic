@@ -27,10 +27,28 @@
             android:textSize="25dp"></TextView>
 
         <TextView
-            android:id="@+id/providerTw"
+            android:id="@+id/emaTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="email"
+            android:textSize="25dp"></TextView>
+        <TextView
+            android:id="@+id/nombTw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="25dp"></TextView>
+        <TextView
+            android:id="@+id/apellTw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:textSize="25dp"></TextView>
+        <TextView
+            android:id="@+id/telfTw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
             android:textSize="25dp"></TextView>
 
         <Button

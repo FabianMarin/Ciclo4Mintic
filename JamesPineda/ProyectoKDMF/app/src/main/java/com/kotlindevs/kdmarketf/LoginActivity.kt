@@ -61,13 +61,6 @@ class LoginActivity : AppCompatActivity() {
             dialog.show()
         }
 
-    fun closesesion(view: android.view.View) {
-        FirebaseAuth.getInstance().signOut()
-        onBackPressed()
-        val intento = Intent(this, MainActivity::class.java)
-        startActivity(intento)
-    }
-
     fun recupclave(view: android.view.View) {
         var username: String = edtUsername!!.text.toString()
         FirebaseAuth.getInstance().sendPasswordResetEmail(username)

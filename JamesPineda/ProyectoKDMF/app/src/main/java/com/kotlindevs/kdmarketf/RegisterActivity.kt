@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.auth.FirebaseAuth
@@ -21,6 +22,8 @@ class RegisterActivity : AppCompatActivity() {
     private var edtApellidos: EditText? = null
     private var edtTelefono: EditText? = null
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -32,6 +35,8 @@ class RegisterActivity : AppCompatActivity() {
         edtNombres = findViewById(R.id.edittxtnombresreg)
         edtApellidos = findViewById(R.id.edittxtteelfreg)
         edtTelefono = findViewById(R.id.edittxtapellidosreg)
+
+
     }
 
     fun onTerms(view: android.view.View) {}
@@ -44,8 +49,11 @@ class RegisterActivity : AppCompatActivity() {
                     if (it.isSuccessful) {
                         Toast.makeText(applicationContext,("Registro satisfactorio"), Toast.LENGTH_SHORT).show()
                         guardarReg()
+
                         val intento = Intent(this, PerfilActivity::class.java)
+                        intento.putExtra("valor",edtUsername!!.text.toString())
                         startActivity(intento)
+                        //startActivityForResult(intento)
                     } else {
                         showAlert()
                     }
