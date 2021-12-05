@@ -49,11 +49,10 @@ class RegisterActivity : AppCompatActivity() {
                     if (it.isSuccessful) {
                         Toast.makeText(applicationContext,("Registro satisfactorio"), Toast.LENGTH_SHORT).show()
                         guardarReg()
-
-                        val intento = Intent(this, PerfilActivity::class.java)
+                        val intento = Intent(this, LoginActivity::class.java)
                         intento.putExtra("valor",edtUsername!!.text.toString())
                         startActivity(intento)
-                        //startActivityForResult(intento)
+
                     } else {
                         showAlert()
                     }

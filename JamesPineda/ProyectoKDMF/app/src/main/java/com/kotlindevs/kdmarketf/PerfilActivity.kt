@@ -27,13 +27,6 @@ class PerfilActivity : AppCompatActivity() {
 
         devolverReg()
     }
-    fun cerrarsesion(view: android.view.View) {
-        FirebaseAuth.getInstance().signOut()
-        onBackPressed()
-        val cerrandoses = Intent(this, MainActivity::class.java)
-        startActivity(cerrandoses)
-
-    }
 
     private fun devolverReg() {
         dataBaseFire.collection("users").document(user.toString()).
@@ -44,5 +37,15 @@ class PerfilActivity : AppCompatActivity() {
             edtApellidosPerf!!.text = it.get("apellidos") as String?
         }
     }
+    fun cerrarsesion(view: android.view.View) {
+        FirebaseAuth.getInstance().signOut()
+        onBackPressed()
+        val cerrandoses = Intent(this, MainActivity::class.java)
+        startActivity(cerrandoses)
+    }
 
+    fun onTienda(view: android.view.View) {
+        val tiendaAct = Intent(this, MarketActivity::class.java)
+        startActivity(tiendaAct)
+    }
 }

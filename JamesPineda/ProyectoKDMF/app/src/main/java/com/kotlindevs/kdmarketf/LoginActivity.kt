@@ -9,8 +9,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class LoginActivity : AppCompatActivity() {
+    private val dataBaseFire= FirebaseFirestore.getInstance()
+    private var user: String?=null
+
     private var edtUsername: EditText? = null
     private var edtPassword: EditText? = null
     private var btnlogin: Button? = null
@@ -19,6 +23,8 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        user=getIntent().getStringExtra("valor")
 
         val analitycs: FirebaseAnalytics = FirebaseAnalytics.getInstance(this)
         val bundle = Bundle()
@@ -39,6 +45,9 @@ class LoginActivity : AppCompatActivity() {
             var username: String = edtUsername!!.text.toString()
             var password: String = edtPassword!!.text.toString()
             var ingreso = Intent(this, PerfilActivity::class.java)
+
+            ingreso.putExtra("valor",edtUsername!!.text.toString())
+
             if (username.isNotEmpty() && password.isNotEmpty()) {
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(username, password)
                     .addOnCompleteListener {
@@ -51,6 +60,7 @@ class LoginActivity : AppCompatActivity() {
                     }
             }
         }
+
 
         private fun showAlert() {
             val builder = AlertDialog.Builder(this)

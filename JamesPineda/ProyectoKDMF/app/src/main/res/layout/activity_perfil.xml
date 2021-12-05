@@ -23,32 +23,37 @@
             android:id="@+id/emailTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="User:"
-            android:textSize="25dp"></TextView>
+            android:text="Mi cuenta"
+            android:layout_margin="10dp"
+            android:textSize="30dp"></TextView>
 
         <TextView
             android:id="@+id/emaTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="email"
+            android:layout_margin="5dp"
             android:textSize="25dp"></TextView>
         <TextView
             android:id="@+id/nombTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nombre"
+            android:layout_margin="5dp"
             android:textSize="25dp"></TextView>
         <TextView
             android:id="@+id/apellTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Apellido"
+            android:layout_margin="5dp"
             android:textSize="25dp"></TextView>
         <TextView
             android:id="@+id/telfTw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Telefono"
+            android:layout_margin="5dp"
             android:textSize="25dp"></TextView>
 
         <Button
@@ -56,7 +61,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cerrarsesion"
+            android:layout_margin="10dp"
             android:text="Cerrar Sesion"></Button>
+
+        <Button
+            android:id="@+id/btntienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTienda"
+            android:text="tienda"></Button>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
