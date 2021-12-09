@@ -20,4 +20,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(intenreg)
     }
 
+    fun onListaProds(view: android.view.View) {
+        val intenprods= Intent(this, FragmentosActivity::class.java)
+        startActivity(intenprods)
+    }
+
 }
