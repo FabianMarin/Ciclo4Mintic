@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:gravity="center"
+
     tools:context=".PerfilActivity">
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_margin="10dp"
         android:orientation="vertical">
@@ -23,8 +24,8 @@
 
     <LinearLayout
         android:id="@+id/linlperfin"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="3"
         android:gravity="center"
         android:orientation="vertical"
@@ -92,21 +93,29 @@
             android:text="@string/phone"
             android:textSize="25dp"></TextView>
 
-        <Button
-            android:id="@+id/btnaCerrarsesion"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginVertical="5dp"
-            android:onClick="cerrarsesion"
-            android:text="@string/logout"></Button>
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btntienda"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onTienda"
-            android:text="@string/market"></Button>
+            <Button
+                android:id="@+id/btnaCerrarsesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="cerrarsesion"
+                android:text="@string/logout"></Button>
+
+            <Button
+                android:id="@+id/btntienda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="onTienda"
+                android:text="@string/market"></Button>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 

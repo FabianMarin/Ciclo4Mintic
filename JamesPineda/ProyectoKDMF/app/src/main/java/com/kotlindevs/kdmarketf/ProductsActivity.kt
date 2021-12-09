@@ -1,13 +1,11 @@
 package com.kotlindevs.kdmarketf
 
-import android.content.ContentValues.TAG
+import android.content.ContentValues
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -17,8 +15,9 @@ import com.google.firebase.firestore.QueryDocumentSnapshot
 import com.google.firebase.firestore.QuerySnapshot
 
 class ProductsActivity : Fragment() {
-
     private val dataBaseFire= FirebaseFirestore.getInstance()
+
+    var info:Bundle= Bundle()
     private lateinit var listRecyclerView: RecyclerView
     private lateinit var ptAdapter: RecyclerView.Adapter<ProdsListAdapter.ProdViewHolder>
 
@@ -37,12 +36,10 @@ class ProductsActivity : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        var info:Bundle= Bundle()
-
         var prodsNombres: ArrayList<String> = ArrayList()
         var prodsPrecios: ArrayList<String> = ArrayList()
 
-        dataBaseFire.collection("pprr")
+        dataBaseFire.collection("products")
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
@@ -59,11 +56,7 @@ class ProductsActivity : Fragment() {
                 listRecyclerView.addItemDecoration(DividerItemDecoration(context,DividerItemDecoration.VERTICAL))
             }
             .addOnFailureListener { exception ->
-                Log.w(TAG, "Error getting documents.", exception)
+                Log.w(ContentValues.TAG, "Error getting documents.", exception)
             }
-    }
-
-    fun traerimg(){
-
     }
 }

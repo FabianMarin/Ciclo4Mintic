@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KDMarketF</string>
+    <string name="title_activity_nav_draw">NavDrawActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="username">Usuario</string>
+    <string name="ej_email">ejemplo@email.com</string>
+    <string name="pass">Contraseña</string>
+    <string name="con_pass">Confirme Contraseña</string>
+    <string name="y_pass">Su Contraseña</string>
+
+    <string name="name">Nombres</string>
+    <string name="l_name">Apellidos</string>
+    <string name="phone">Telefono</string>
+
+    <string name="login">Ingresar</string>
+    <string name="register">Registrarse</string>
+    <string name="rec_pass">Recuperar contraseña</string>
+    <string name="terms">Terminos</string>
+    <string name="agree">Acepto terminos y condiciones</string>
+    <string name="name_acc">Mi cuenta</string>
+    <string name="logout">Cerrar Sesion</string>
+    <string name="market">Tienda</string>
+
+
+
+
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Diapositivas</string>
+</resources>

@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout-land/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout-land/activity_perfil.xml" value="0.22" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout-land/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_fragmentos.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_main.xml" value="0.2923387096774194" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_market.xml" value="0.22379032258064516" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.1" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33046875" />
+        <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_market.xml" value="0.1431159420289855" />
+        <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.1431159420289855" />
+        <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/products_list.xml" value="0.1431159420289855" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_fragmentos.xml" value="0.2506720430107527" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_home2.xml" value="0.1" />
@@ -13,7 +27,6 @@
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_perfil.xml" value="0.33" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.33" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_register.xml" value="0.25" />
-        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/cardview.xml" value="0.2385752688172043" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/content_nav_draw.xml" value="0.1" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/products_list.xml" value="0.25" />
       </map>
