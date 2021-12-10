@@ -16,27 +16,13 @@
             android:name=".ProductsActivity"
             android:exported="false" />
         <activity
-            android:name=".MarketActivity"
-            android:exported="false" />
-        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
-        <activity
-            android:name=".NavDrawActivity"
-            android:exported="false"
-            android:label="@string/title_activity_nav_draw"
-            android:theme="@style/Theme.KDMarketF.NoActionBar" />
         <activity
             android:name=".PerfilActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

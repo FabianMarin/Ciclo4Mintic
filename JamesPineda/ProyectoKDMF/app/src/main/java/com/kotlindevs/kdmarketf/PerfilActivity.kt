@@ -45,7 +45,7 @@ class PerfilActivity : AppCompatActivity() {
     }
 
     fun onTienda(view: android.view.View) {
-        val tiendaAct = Intent(this, MarketActivity::class.java)
+        val tiendaAct = Intent(this, FragmentosActivity::class.java)
         startActivity(tiendaAct)
     }
 }

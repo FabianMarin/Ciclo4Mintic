@@ -14,8 +14,10 @@
         <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.1" />
         <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Galban/Desktop/Ciclo4/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33046875" />
+        <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_fragmentos.xml" value="0.1381340579710145" />
         <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_market.xml" value="0.1431159420289855" />
         <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.1431159420289855" />
+        <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/fragment_details_prods.xml" value="0.18" />
         <entry key="..\:/proyectosAndroid/PPFinal/ProyectoKDMFintentoListarBase/ProyectoKDMF/app/src/main/res/layout/products_list.xml" value="0.1431159420289855" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_fragmentos.xml" value="0.2506720430107527" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_home.xml" value="0.1" />
@@ -25,10 +27,11 @@
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_market.xml" value="0.25" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_perfil.xml" value="0.33" />
-        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.33" />
+        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_products.xml" value="0.18" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/content_nav_draw.xml" value="0.1" />
-        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/products_list.xml" value="0.25" />
+        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/fragment_details_prods.xml" value="0.1331521739130435" />
+        <entry key="..\:/proyectosAndroid/ProyectoKDMF/app/src/main/res/layout/products_list.xml" value="0.22" />
       </map>
     </option>
   </component>
